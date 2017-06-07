@@ -22,7 +22,6 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   <title>RightCust</title>
   <link rel="stylesheet" href="index_style.css" />
-    <link rel="stylesheet" href="particles-js/css/style.css" />
 <script type='text/javascript' src='jquery.particleground.min.js'></script>
 <script type="text/javascript">
 
@@ -49,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     <nav class="navbar navbar-dropdown navbar-fixed-top">
         <div class="container">
-         
+
             <div class="mbr-table">
                 <div class="mbr-table-cell">
 
@@ -85,7 +84,6 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="mbr-table-cell">
 
         <div class="container">
-            <div id="particles-js"></div>
             <div class="row">
                 <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">
 <div class="container">
@@ -617,141 +615,8 @@ Fax: +1 (0) 000 0000 002</p>
   <script src="assets/jarallax/jarallax.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
-  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-  <script src='https://threejs.org/examples/js/libs/stats.min.js'></script>
-    <script>/* ---- particles.js config ---- */
-
-particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 380,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 140,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
-
-
-/* ---- stats.js config ---- */
-
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector('.js-count-particles');
-update = function() {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);</script>>
+  
+  
   <input name="animation" type="hidden">
   </body>
 </html>
