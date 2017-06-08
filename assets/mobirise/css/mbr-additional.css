@@ -6,6 +6,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body,
 input,
 textarea,
@@ -483,6 +499,7 @@ h6,
 #header1-4 .mbr-section-lead {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-size: 30px;
 }
 #features4-6 .card-subtitle {
   color: #bcbcbc;
@@ -491,9 +508,21 @@ h6,
   background-color: #f2f2f2;
   border-color: #f2f2f2;
 }
+#features4-6 H4 {
+  font-family: 'Roboto', sans-serif;
+}
+#testimonials4-8 .mbr-section-title {
+  font-family: 'Roboto', sans-serif;
+}
+#testimonials4-8 .card-block P {
+  font-family: 'Roboto', sans-serif;
+}
 #header3-9 .mbr-section-title,
 #header3-9 .mbr-section-subtitle {
   text-align: center;
+}
+#header3-9 H3 {
+  font-family: 'Roboto', sans-serif;
 }
 #features4-a .card-subtitle {
   color: #bcbcbc;
@@ -504,6 +533,10 @@ h6,
 }
 #features4-a P {
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+#features4-a H4 {
+  font-family: 'Roboto', sans-serif;
 }
 #features4-b .card-subtitle {
   color: #bcbcbc;
@@ -519,8 +552,18 @@ h6,
 #header3-e .mbr-section-subtitle {
   text-align: center;
 }
+#header3-e H3 {
+  font-family: 'Roboto', sans-serif;
+}
 #features3-d P {
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+#features3-d H4 {
+  font-family: 'Roboto', sans-serif;
+}
+#msg-box5-f H3 {
+  font-family: 'Roboto', sans-serif;
 }
 #features4-g .card-subtitle {
   color: #bcbcbc;
@@ -531,7 +574,23 @@ h6,
 }
 #features4-g P {
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+#features4-g H4 {
+  font-family: 'Roboto', sans-serif;
 }
 #form1-i .form-control-label {
   color: #232323;
+}
+#form1-i .mbr-section-title {
+  font-family: 'Roboto', sans-serif;
+}
+#form1-i .btn {
+  font-family: 'Roboto', sans-serif;
+}
+#contacts2-j P {
+  font-family: 'Roboto', sans-serif;
+}
+#contacts2-j UL {
+  font-family: 'Roboto', sans-serif;
 }
